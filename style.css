@@ -42,7 +42,7 @@
 
 .banner {
     height: 100vh;
-    background-image: url(../img/banner1.png);
+    background-image: url(./img/banner1.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -149,7 +149,7 @@ nav a {
 
 #historia {
     height: 85vh;
-    background-image: url(../img/rj.png);
+    background-image: url(./img/rj.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
