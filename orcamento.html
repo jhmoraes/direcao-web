@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Direção Web</title>
+</head>
+
+<body>
+
+    <section class="txt-white container banner-form banner">       
+
+        <a href="./index.html"><img class="img-form img-form-top" src="./img/logo.jpg" alt="logomarca com o texto direção web"></a>
+
+        <a href="./index.html" class="link-voltar">IR PARA HOME</a>
+
+
+        <form class="formulario container-form" action="https://formsubmit.co/honoriom.juliana@gmail.com" method="POST">
+           
+            <input placeholder="Nome" type="text" name="nome" required>
+            <input placeholder="Email" type="email" name="email" required>
+            <input placeholder="(00) 00000-0000" type="tel" name="tel" required>
+
+            <h3>Necessidades Principais:</h3>
+
+            <fieldset>
+                
+                <label>
+                    <input type="checkbox" class="input-radio" id="sec-pessoal" name="sec-pessoal">
+                    Secretária pessoal
+                </label>
+                <label>
+                    <input type="checkbox" id="assis-adm" name="assis-adm">
+                    Assistência administrativa
+                </label>
+
+                <label>
+                    <input type="checkbox" name="ges-emp">
+                    Gestão empresarial
+                </label>
+                <label>
+                    <input type="checkbox" name="website">
+                    Desenvolvimento de site
+                </label>
+                <label>
+                    <input type="checkbox" name="sistem">
+                    Soluções em sistemas
+                </label>
+            </fieldset>
+            </span>
+            <textarea placeholder="Descreva sua necessidade." name="message"></textarea>
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <button class="btn-form" type="submit">Enviar</button>
+
+        </form>
+
+    </section>
+
+
+</body>
+
+</html>
