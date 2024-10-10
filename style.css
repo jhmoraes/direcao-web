@@ -863,7 +863,7 @@ fieldset label {
 /* FORMULÁRIO */
 @media screen and (min-device-width: 321px) and (max-device-width: 979px) {
     .banner-form, .banner-form input, .banner-form textarea, .banner-form button{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .link-voltar{
